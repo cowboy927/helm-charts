@@ -1,9 +1,35 @@
 apiVersion: v1
 entries:
+  cowboy927:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:47:05.608874631Z"
+    description: Sample helm chart for study
+    digest: 7f61aad93695d9154e614254add64d4cde0b5a05925a1ac347e29c3697675f4d
+    engine: gotpl
+    home: https://cowboy927.github.io/helm-charts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - cowboy927
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: cowboy927@gmail.com
+      name: yhsong
+    - email: cowboy927@gmail.com
+      name: yhsong
+    name: cowboy927
+    sources:
+    - https://cowboy927.github.io/helm-charts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - cowboy927-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:27:59.004816873Z"
+    created: "2019-09-27T06:47:05.610806429Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +52,4 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:27:59.002857798Z"
+generated: "2019-09-27T06:47:05.607775169Z"
